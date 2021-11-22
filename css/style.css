@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+/* ## Root ## */
+:root 
+{
+    --zwart: #000;
+    --grijs: #444;
+    --wit:   #fff;
+}
+/* ## End Root ## */
+
+
+
+/* ## Header ## */
+body 
+{
+    background-color: var(--wit);
+    color: var(--zwart);
+    font-family: 'Dancing Script', cursive;
+}
+
+.corona 
+{
+    color: var(--zwart);
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
+.corona:hover 
+{
+    font-style: italic;
+    color: var(--grijs);
+}
+
+.icons-container
+
+{
+    float: right;
+    position: relative;
+    bottom: 75px;
+}
+/* ## End Header ## */
+
+
+
+/* ## Nav-bar ## */
+.nav 
+{
+    background-color: var(--wit);
+    height: auto;
+}
+
+.nav .logo p 
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Questrial', sans-serif;
+    font-size: 5em;
+    padding: 0;
+    margin: 0px 50px;
+    cursor: pointer;
+}
+
+.nav .logo p:hover
+{
+    transition: 0.5s;
+    color: var(--wit);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--zwart);
+}
+
+.nav ul 
+{
+    list-style-type: none;
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    float: right;
+}
+
+.nav li a 
+{
+    font-size: 30px;
+    padding: 20px;
+    color: var(--zwart);
+    text-decoration: none;
+    display: flex;
+}
+
+.nav li a:hover 
+{
+    color: var(--grijs);
+    margin-top: 3px;
+    transition: 0.6s;
+}
+
+
+ul.address-top-menu li:last-child:after {
+  content: ' ';
+}
+/* ## End Nav-bar ## */
+
+
+
+/* ## Home ## */
+.home 
+{   
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 100px 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.home .text 
+{
+    padding: 50px 50px;
+    max-width: 50%;
+}
+
+.home .home-image
+{
+    width: 200px;
+    height: 300px;
+    margin: 0 100px 0 0;
+}
+
+.carousel-inner
+{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    margin-left: 400px;
+    margin-bottom: 100px;
+}
+/* ## End Home ## */
+
+/* Begin About */
+.about
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    margin: 80px 150px;
+}
+
+.about h1
+{
+    text-align: center;
+}
+
+.about p
+{
+    margin-bottom: 40px;
+}
+
+.about-box
+{
+    margin-top: 100px;
+}
+
+.about img
+{
+    max-width: 600px;
+    height: 350px;
+}
+/* End About */
+
+/* Begin Menu */
+.menu
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    margin: 80px 150px;
+}
+
+.menu h1, h6
+{   
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
+
+
+.menu-box img
+{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+.gerecht
+{   
+    display: flex;
+    flex-direction: row;
+}
+
+.gerecht p 
+{
+    padding: 80px 50px;
+}
+/* End Menu */
+
+/* Begin Reserveren*/
+.reserveren-outer-box
+{
+    display: flex;
+    margin-bottom: 200px;
+}
+
+.reserveren-box 
+{
+   margin: 50px 350px 0 0;
+   color: var(--zwart); 
+}
+
+.reserveren-box img
+{
+    max-width: 350px;
+    height: auto;
+}
+
+.container {
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    margin-top: 30px;
+   }
+   h3 {
+   margin-bottom: 15px;
+   }
+    th {
+   height: 10px;
+   text-align: center;
+   }
+   .today {
+   background: orange;
+   }
+   th:nth-of-type(1), td:nth-of-type(1) {
+    color: red;
+   }
+   th:nth-of-type(7), td:nth-of-type(7) {
+   color: blue;
+   }
+   a {
+       color: black;
+   }
+/* Eind Reserveren*/
+
+/* Begin Contact*/
+.contact-text
+{
+    display: flex;
+    margin-top: 50px;
+    width: 50%;
+
+}
+
+.forum
+{   
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.table-bordered
+{
+    max-height: 100px;
+    height: 100px;
+}
+
+/* Eind Contact*/
+
+.bestellen-box
+{
+    margin-top: 100px;
+    display: flex;
+}
+
+.bestellen-text
+{
+    width: 50%;
+    margin-left: 500px;
+}
+
+/* ## Utilities ## */
+.line
+{
+    border-top: 3px solid var(--zwart);
+    margin-top: 20px;
+    margin-bottom: 100px;
+    width: auto;
+
+}
+/* ## End Utilities ## */
+
+
